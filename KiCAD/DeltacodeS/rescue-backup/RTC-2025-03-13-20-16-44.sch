@@ -1,0 +1,325 @@
+EESchema Schematic File Version 2
+LIBS:TEST4-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myLib
+LIBS:same70n21
+LIBS:TEST4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DS3234 U7
+U 1 1 577AC089
+P 4600 3300
+F 0 "U7" H 4950 2550 60  0000 C CNN
+F 1 "DS3234" H 4600 3300 60  0000 C CNN
+F 2 "mylib:SOIC-20_7.5x12.8mm_Pitch1.27mm" H 4600 3100 60  0001 C CNN
+F 3 "" H 4600 3100 60  0000 C CNN
+	1    4600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery-RESCUE-TEST4 BT1
+U 1 1 577AC405
+P 5450 3250
+AR Path="/577AC405" Ref="BT1"  Part="1" 
+AR Path="/577ABEC0/577AC405" Ref="BT1"  Part="1" 
+F 0 "BT1" H 5550 3300 50  0000 L CNN
+F 1 "CR2032 3V" H 5550 3200 50  0000 L CNN
+F 2 "mylib:CR2032H" V 5450 3290 50  0001 C CNN
+F 3 "" V 5450 3290 50  0000 C CNN
+	1    5450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR071
+U 1 1 577AC43A
+P 4600 4400
+F 0 "#PWR071" H 4600 4150 50  0001 C CNN
+F 1 "GND" H 4600 4250 50  0000 C CNN
+F 2 "" H 4600 4400 50  0000 C CNN
+F 3 "" H 4600 4400 50  0000 C CNN
+	1    4600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR072
+U 1 1 577AC4F0
+P 4600 1650
+F 0 "#PWR072" H 4600 1500 50  0001 C CNN
+F 1 "+3.3V" H 4600 1790 50  0000 C CNN
+F 2 "" H 4600 1650 50  0000 C CNN
+F 3 "" H 4600 1650 50  0000 C CNN
+	1    4600 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1650 4600 2450
+Wire Wire Line
+	4600 4150 4600 4400
+Wire Wire Line
+	3900 3400 3750 3400
+Wire Wire Line
+	3750 3400 3750 4250
+Wire Wire Line
+	3750 4250 6800 4250
+Connection ~ 4600 4250
+Wire Wire Line
+	5300 3550 5450 3550
+Wire Wire Line
+	5450 3400 5450 4300
+Wire Wire Line
+	3900 3550 3750 3550
+Connection ~ 3750 3550
+Wire Wire Line
+	3900 3650 3750 3650
+Connection ~ 3750 3650
+Wire Wire Line
+	3900 3750 3750 3750
+Connection ~ 3750 3750
+Wire Wire Line
+	3900 3850 3750 3850
+Connection ~ 3750 3850
+Wire Wire Line
+	5300 3650 5450 3650
+Connection ~ 5450 3650
+Wire Wire Line
+	5450 3750 5300 3750
+Connection ~ 5450 3750
+Wire Wire Line
+	5300 3850 5450 3850
+Connection ~ 5450 3850
+Wire Wire Line
+	5450 3100 5450 2950
+Wire Wire Line
+	5300 2950 6100 2950
+Connection ~ 5450 3550
+Text GLabel 2350 3050 0    60   Input ~ 0
+RTC_MOSI
+Text GLabel 2350 2850 0    60   Input ~ 0
+RTC_SCLK
+Text GLabel 2350 2750 0    60   Input ~ 0
+RTC_CS
+Text GLabel 2350 3150 0    60   Output ~ 0
+RTC_MISO
+Wire Wire Line
+	2350 2750 3900 2750
+Wire Wire Line
+	2350 2850 3900 2850
+Wire Wire Line
+	2350 3050 3900 3050
+Wire Wire Line
+	2350 3150 3900 3150
+$Comp
+L PWR_FLAG #FLG073
+U 1 1 577ACD77
+P 6100 2650
+F 0 "#FLG073" H 6100 2745 50  0001 C CNN
+F 1 "PWR_FLAG" H 6100 2830 50  0000 C CNN
+F 2 "" H 6100 2650 50  0000 C CNN
+F 3 "" H 6100 2650 50  0000 C CNN
+	1    6100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2950 6100 2650
+Connection ~ 5450 2950
+$Comp
+L C_Small C5
+U 1 1 577D7E5A
+P 6350 3250
+F 0 "C5" H 6360 3320 50  0000 L CNN
+F 1 "100n" H 6360 3170 50  0000 L CNN
+F 2 "mylib:C_1206" H 6350 3250 50  0001 C CNN
+F 3 "" H 6350 3250 50  0000 C CNN
+	1    6350 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2400 6350 2400
+Wire Wire Line
+	6350 2400 6350 3150
+Connection ~ 4600 2400
+Wire Wire Line
+	6350 4250 6350 3350
+Connection ~ 5450 4250
+Wire Wire Line
+	3900 2950 3600 2950
+Wire Wire Line
+	3600 2950 3600 2850
+Connection ~ 3600 2850
+$Comp
+L TEST_1P W2
+U 1 1 57AB7C59
+P 2750 2400
+F 0 "W2" H 2750 2670 50  0000 C CNN
+F 1 "PIN_RTC_CS" H 2750 2600 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 2950 2400 50  0001 C CNN
+F 3 "" H 2950 2400 50  0000 C CNN
+	1    2750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W4
+U 1 1 57AB7E14
+P 3100 2600
+F 0 "W4" H 3100 2870 50  0000 C CNN
+F 1 "PIN_RTC_SCLK" H 3100 2800 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 3300 2600 50  0001 C CNN
+F 3 "" H 3300 2600 50  0000 C CNN
+	1    3100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W1
+U 1 1 57AB7ECE
+P 2400 3600
+F 0 "W1" H 2400 3870 50  0000 C CNN
+F 1 "PIN_RTC_MOSI" H 2400 3800 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 2600 3600 50  0001 C CNN
+F 3 "" H 2600 3600 50  0000 C CNN
+	1    2400 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P W3
+U 1 1 57AB7F36
+P 2750 3850
+F 0 "W3" H 2750 4120 50  0000 C CNN
+F 1 "PIN_RTC_MISO" H 2750 4050 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 2950 3850 50  0001 C CNN
+F 3 "" H 2950 3850 50  0000 C CNN
+	1    2750 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 2400 2750 2750
+Connection ~ 2750 2750
+Wire Wire Line
+	3100 2600 3100 2850
+Connection ~ 3100 2850
+Wire Wire Line
+	2400 3600 2400 3050
+Connection ~ 2400 3050
+Wire Wire Line
+	2750 3850 2750 3150
+Connection ~ 2750 3150
+$Comp
+L TEST_1P W34
+U 1 1 57AF8AB9
+P 6800 3950
+F 0 "W34" H 6800 4220 50  0000 C CNN
+F 1 "PIN_RTC_GND" H 6800 4150 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 7000 3950 50  0001 C CNN
+F 3 "" H 7000 3950 50  0000 C CNN
+	1    6800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4250 6800 3950
+Connection ~ 6350 4250
+$Comp
+L R R37
+U 1 1 57AFC7AB
+P 6800 2000
+F 0 "R37" V 6880 2000 50  0000 C CNN
+F 1 "4k7" V 6800 2000 50  0000 C CNN
+F 2 "mylib:R_1206" V 6730 2000 50  0001 C CNN
+F 3 "" H 6800 2000 50  0000 C CNN
+	1    6800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR074
+U 1 1 57AFC974
+P 6800 1650
+F 0 "#PWR074" H 6800 1500 50  0001 C CNN
+F 1 "+3.3V" H 6800 1790 50  0000 C CNN
+F 2 "" H 6800 1650 50  0000 C CNN
+F 3 "" H 6800 1650 50  0000 C CNN
+	1    6800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W36
+U 1 1 57AFCBF3
+P 5800 1750
+F 0 "W36" H 5800 2020 50  0000 C CNN
+F 1 "PIN_RTC_32KHZ" H 5800 1950 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 6000 1750 50  0001 C CNN
+F 3 "" H 6000 1750 50  0000 C CNN
+	1    5800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W35
+U 1 1 57AFCC4A
+P 5250 1750
+F 0 "W35" H 5250 2020 50  0000 C CNN
+F 1 "PIN_RTC_INT" H 5250 1950 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 5450 1750 50  0001 C CNN
+F 3 "" H 5450 1750 50  0000 C CNN
+	1    5250 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2300 5400 2750
+Wire Wire Line
+	5300 2750 7450 2750
+Wire Wire Line
+	5800 1750 5800 2850
+Wire Wire Line
+	5800 2850 5300 2850
+Wire Wire Line
+	5250 1750 5250 2300
+Text GLabel 7450 2750 2    60   Output ~ 0
+RTC_INT_SQW
+Connection ~ 5400 2750
+Wire Wire Line
+	5250 2300 5400 2300
+Wire Wire Line
+	6800 2150 6800 2750
+Connection ~ 6800 2750
+Wire Wire Line
+	6800 1650 6800 1850
+NoConn ~ 3900 3250
+$EndSCHEMATC

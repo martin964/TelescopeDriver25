@@ -1,0 +1,469 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "23fb4e01-bd67-4f42-b847-eb8f032104db")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 127 59.69)
+		(size 40.64 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "043205c9-3a98-4c09-89e8-23e1b5c2e99e")
+		(property "Sheetname" "RTC"
+			(at 127 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC.kicad_sch"
+			(at 127 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 26.67)
+		(size 40.64 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05ab9ef6-e420-4e49-bbe1-b3ce9fe2404c")
+		(property "Sheetname" "IP2000"
+			(at 173.99 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IP2000.kicad_sch"
+			(at 173.99 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 95.25)
+		(size 40.64 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17101fef-8343-4dce-82af-3746999bb95b")
+		(property "Sheetname" "CPU144"
+			(at 173.99 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU144.kicad_sch"
+			(at 173.99 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 59.69)
+		(size 40.64 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ad049e6-7efd-4a75-9c61-53c5a3e04e9d")
+		(property "Sheetname" "MEMORY"
+			(at 80.01 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MEMORY.kicad_sch"
+			(at 80.01 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 26.67)
+		(size 40.64 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72958180-cf53-4620-8305-aaa8de2cb76d")
+		(property "Sheetname" "ARMJTAG"
+			(at 80.01 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ARMJTAG.kicad_sch"
+			(at 80.01 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 95.25)
+		(size 40.64 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7cdb8463-d685-42d3-845d-0a0acc1707ee")
+		(property "Sheetname" "POWER"
+			(at 127 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 127 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 26.67)
+		(size 40.64 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9501a7f2-6542-41bd-a497-d7b96b25decc")
+		(property "Sheetname" "HANDBOX"
+			(at 127 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HANDBOX.kicad_sch"
+			(at 127 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 95.25)
+		(size 40.64 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd692d1d-e46b-4fde-a8dc-1f1736ddf42f")
+		(property "Sheetname" "ETHERNET"
+			(at 33.02 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETHERNET.kicad_sch"
+			(at 33.02 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 59.69)
+		(size 40.64 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be1f604b-d510-4e00-a8a2-0873550b7b14")
+		(property "Sheetname" "SERIAL_PORTS"
+			(at 173.99 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SERIAL_PORTS.kicad_sch"
+			(at 173.99 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 26.67)
+		(size 40.64 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cad281f9-4de1-4e10-a9d7-f0a82f7bb3b6")
+		(property "Sheetname" "CPU"
+			(at 33.02 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 33.02 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 95.25)
+		(size 40.64 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d11232ed-8a18-402a-8789-74f1e8de4ce1")
+		(property "Sheetname" "USB"
+			(at 80.01 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 80.01 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 59.69)
+		(size 40.64 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3af85fa-45d8-4c40-b376-e343445d1d95")
+		(property "Sheetname" "ENCODER_ST4"
+			(at 33.02 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ENCODER_ST4.kicad_sch"
+			(at 33.02 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControllerBoard"
+				(path "/23fb4e01-bd67-4f42-b847-eb8f032104db"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

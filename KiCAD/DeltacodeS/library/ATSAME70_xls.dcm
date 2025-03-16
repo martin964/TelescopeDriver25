@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SAME70N21
+D LQFP100, 2048K Flash, 384K RAM, 300MHz, CortexM7
+K ARM 32bit Microcontroller 300MHz CortexM7
+F http://
+$ENDCMP
+#
+#End Doc Library

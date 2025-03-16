@@ -1,0 +1,267 @@
+EESchema Schematic File Version 2
+LIBS:TEST4-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myLib
+LIBS:same70n21
+LIBS:TEST4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR0115
+U 1 1 57847400
+P 4450 3650
+F 0 "#PWR0115" H 4450 3400 50  0001 C CNN
+F 1 "GND" H 4450 3500 50  0000 C CNN
+F 2 "" H 4450 3650 50  0000 C CNN
+F 3 "" H 4450 3650 50  0000 C CNN
+	1    4450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR0116
+U 1 1 57847416
+P 4450 1800
+F 0 "#PWR0116" H 4450 1650 50  0001 C CNN
+F 1 "+3.3V" H 4450 1940 50  0000 C CNN
+F 2 "" H 4450 1800 50  0000 C CNN
+F 3 "" H 4450 1800 50  0000 C CNN
+	1    4450 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 2850 2    60   BiDi ~ 0
+DEBUG_SWDIO
+Text GLabel 7700 2950 2    60   Output ~ 0
+DEBUG_SWCLK
+Text GLabel 7700 3050 2    60   Input ~ 0
+DEBUG_SWO
+Text GLabel 7700 3250 2    60   Output ~ 0
+DEBUG_RESET
+$Comp
+L C_Small C68
+U 1 1 578D4B03
+P 4450 2450
+F 0 "C68" H 4460 2520 50  0000 L CNN
+F 1 "100n" H 4460 2370 50  0000 L CNN
+F 2 "mylib:C_1206" H 4450 2450 50  0001 C CNN
+F 3 "" H 4450 2450 50  0000 C CNN
+	1    4450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R45
+U 1 1 57BA1FE8
+P 6750 2450
+F 0 "R45" V 6830 2450 50  0000 C CNN
+F 1 "100k" V 6750 2450 50  0000 C CNN
+F 2 "mylib:R_1206" V 6680 2450 50  0001 C CNN
+F 3 "" H 6750 2450 50  0000 C CNN
+	1    6750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R46
+U 1 1 57BA2074
+P 7000 2450
+F 0 "R46" V 7080 2450 50  0000 C CNN
+F 1 "100k" V 7000 2450 50  0000 C CNN
+F 2 "mylib:R_1206" V 6930 2450 50  0001 C CNN
+F 3 "" H 7000 2450 50  0000 C CNN
+	1    7000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R47
+U 1 1 57BA2096
+P 7250 2450
+F 0 "R47" V 7330 2450 50  0000 C CNN
+F 1 "100k" V 7250 2450 50  0000 C CNN
+F 2 "mylib:R_1206" V 7180 2450 50  0001 C CNN
+F 3 "" H 7250 2450 50  0000 C CNN
+	1    7250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR0117
+U 1 1 587294CC
+P 6750 1800
+F 0 "#PWR0117" H 6750 1650 50  0001 C CNN
+F 1 "+3.3V" H 6750 1940 50  0000 C CNN
+F 2 "" H 6750 1800 50  0000 C CNN
+F 3 "" H 6750 1800 50  0000 C CNN
+	1    6750 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 3250 0    60   Output ~ 0
+DEBUG_DETECT
+$Comp
+L R R51
+U 1 1 5872B4B8
+P 3800 2450
+F 0 "R51" V 3880 2450 50  0000 C CNN
+F 1 "100k" V 3800 2450 50  0000 C CNN
+F 2 "mylib:R_1206" V 3730 2450 50  0001 C CNN
+F 3 "" H 3800 2450 50  0000 C CNN
+	1    3800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CORTEX_DBG P20
+U 1 1 589A66A2
+P 5450 3050
+F 0 "P20" H 5450 3350 50  0000 C CNN
+F 1 "CORTEX_DBG" H 5450 2750 50  0000 C CNN
+F 2 "mylib:box_header_2x5x2.54_straight" H 5450 1850 50  0001 C CNN
+F 3 "" H 5450 1850 50  0000 C CNN
+	1    5450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P21
+U 1 1 58A066C5
+P 6650 5500
+F 0 "P21" H 6650 5700 50  0000 C CNN
+F 1 "CONN_01X03" V 6750 5500 50  0000 C CNN
+F 2 "mylib:Pin_Header_Straight_1x03" H 6650 5500 50  0001 C CNN
+F 3 "" H 6650 5500 50  0000 C CNN
+	1    6650 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P9
+U 1 1 58A0670C
+P 6650 4500
+F 0 "P9" H 6650 4700 50  0000 C CNN
+F 1 "CONN_01X03" V 6750 4500 50  0000 C CNN
+F 2 "mylib:Pin_Header_Straight_1x03" H 6650 4500 50  0001 C CNN
+F 3 "" H 6650 4500 50  0000 C CNN
+	1    6650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2850 7700 2850
+Wire Wire Line
+	5900 2950 7700 2950
+Wire Wire Line
+	6750 2600 6750 2850
+Connection ~ 6750 2850
+Wire Wire Line
+	7000 2600 7000 2950
+Connection ~ 7000 2950
+Wire Wire Line
+	5900 3250 7700 3250
+Wire Wire Line
+	7700 3050 5900 3050
+Wire Wire Line
+	7250 2600 7250 3250
+Connection ~ 7250 3250
+Wire Wire Line
+	6750 1800 6750 2300
+Wire Wire Line
+	7000 2300 7000 2100
+Wire Wire Line
+	6750 2100 7250 2100
+Connection ~ 6750 2100
+Wire Wire Line
+	7250 2100 7250 2300
+Connection ~ 7000 2100
+Wire Wire Line
+	3500 3250 5000 3250
+Wire Wire Line
+	3800 2600 3800 3250
+Connection ~ 3800 3250
+Wire Wire Line
+	3800 2300 3800 2100
+Wire Wire Line
+	3800 2100 4800 2100
+Connection ~ 4450 2100
+Wire Wire Line
+	4450 2550 4450 3650
+Wire Wire Line
+	4450 1800 4450 2350
+Wire Wire Line
+	4800 2100 4800 2850
+Wire Wire Line
+	4800 2850 5000 2850
+Wire Wire Line
+	5000 2950 4450 2950
+Connection ~ 4450 2950
+Wire Wire Line
+	5000 3050 4450 3050
+Connection ~ 4450 3050
+Wire Wire Line
+	4100 5500 6450 5500
+Wire Wire Line
+	6450 4500 4100 4500
+Wire Wire Line
+	6450 4600 6350 4600
+Wire Wire Line
+	6350 4600 6350 4850
+Wire Wire Line
+	6450 5600 6350 5600
+Wire Wire Line
+	6350 5600 6350 5850
+Wire Wire Line
+	5900 3150 6350 3150
+Wire Wire Line
+	6350 3150 6350 4400
+Wire Wire Line
+	6350 4400 6450 4400
+Wire Wire Line
+	5000 3150 4800 3150
+Wire Wire Line
+	4800 3150 4800 5400
+Wire Wire Line
+	4800 5400 6450 5400
+Text GLabel 4100 4500 0    60   Output ~ 0
+DEBUG_RXD
+Text GLabel 4100 5500 0    60   Input ~ 0
+DEBUG_TXD
+Text GLabel 7200 5850 2    60   Output ~ 0
+MAX232_T2IN
+Wire Wire Line
+	6350 5850 7200 5850
+Text GLabel 7200 4850 2    60   Input ~ 0
+MAX232_R2OUT
+Wire Wire Line
+	6350 4850 7200 4850
+$EndSCHEMATC

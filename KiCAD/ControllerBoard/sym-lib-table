@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TEST4-rescue")(type "KiCad")(uri "D:/OneDrive/PROJEKTE/ATSAME70/KiCAD/DeltacodeS/TEST4-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "ATSAME70")(type "KiCad")(uri "${KIPRJMOD}/ATSAME70.kicad_sym")(options "")(descr ""))
+  (lib (name "TEST4")(type "KiCad")(uri "${KIPRJMOD}/TEST4.kicad_sym")(options "")(descr ""))
+)

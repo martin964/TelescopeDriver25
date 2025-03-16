@@ -1,0 +1,14 @@
+** Drc report for D:/MARTIN/KiCAD/DELTACODE/TEST4.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 2 unconnected pads **
+ErrType(2): Nicht verbundene Pads
+    @ (167,409 mm,112,075 mm): Pad 2 auf F.Cu, Keine Kupferfläche von Q5 net GND
+    @ (160,750 mm,109,855 mm): Pad 2 auf F.Cu, Keine Kupferfläche von C4
+ErrType(2): Nicht verbundene Pads
+    @ (156,845 mm,106,680 mm): Pad 2 auf F.Cu, Keine Kupferfläche von U8 net +3V3
+    @ (147,320 mm,103,600 mm): Pad 1 auf F.Cu, Keine Kupferfläche von L3
+
+** End of Report **

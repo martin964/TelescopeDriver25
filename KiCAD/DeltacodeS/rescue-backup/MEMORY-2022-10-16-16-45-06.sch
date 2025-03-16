@@ -1,0 +1,256 @@
+EESchema Schematic File Version 2
+LIBS:TEST4-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myLib
+LIBS:same70n21
+LIBS:TEST4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 7750 3200 2    60   Input ~ 0
+FLASH_SCLK
+Text GLabel 3250 3800 0    60   Input ~ 0
+FLASH_CS
+Text GLabel 7750 3300 2    60   BiDi ~ 0
+FLASH_DQ0
+Wire Wire Line
+	6150 3200 7750 3200
+$Comp
+L C_Small C4
+U 1 1 577D5FA8
+P 5500 2800
+F 0 "C4" H 5510 2870 50  0000 L CNN
+F 1 "100n" H 5510 2720 50  0000 L CNN
+F 2 "mylib:C_1206" H 5500 2800 50  0001 C CNN
+F 3 "" H 5500 2800 50  0000 C CNN
+	1    5500 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR062
+U 1 1 577D6016
+P 4700 2650
+F 0 "#PWR062" H 4700 2500 50  0001 C CNN
+F 1 "+3.3V" H 4700 2790 50  0000 C CNN
+F 2 "" H 4700 2650 50  0000 C CNN
+F 3 "" H 4700 2650 50  0000 C CNN
+	1    4700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR063
+U 1 1 577D605F
+P 6300 4800
+F 0 "#PWR063" H 6300 4550 50  0001 C CNN
+F 1 "GND" H 6300 4650 50  0000 C CNN
+F 2 "" H 6300 4800 50  0000 C CNN
+F 3 "" H 6300 4800 50  0000 C CNN
+	1    6300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3800 4850 3800
+Text GLabel 7750 3900 2    60   BiDi ~ 0
+FLASH_DQ2
+Wire Wire Line
+	6150 3900 7750 3900
+Wire Wire Line
+	6150 3300 7750 3300
+Text GLabel 3250 3200 0    60   BiDi ~ 0
+FLASH_DQ3
+Wire Wire Line
+	3250 3200 4850 3200
+Text GLabel 3250 3900 0    60   BiDi ~ 0
+FLASH_DQ1
+Wire Wire Line
+	3250 3900 4850 3900
+Wire Wire Line
+	6300 2800 6300 4800
+Wire Wire Line
+	4700 2650 4700 3300
+Wire Wire Line
+	4450 3300 4850 3300
+Connection ~ 4700 2800
+Wire Wire Line
+	4700 2800 5400 2800
+Wire Wire Line
+	5600 2800 6300 2800
+NoConn ~ 6150 3400
+NoConn ~ 6150 3500
+NoConn ~ 6150 3600
+NoConn ~ 6150 3700
+Wire Wire Line
+	6150 3800 6300 3800
+Connection ~ 6300 3800
+NoConn ~ 4850 3400
+NoConn ~ 4850 3500
+NoConn ~ 4850 3600
+NoConn ~ 4850 3700
+$Comp
+L N25Q00AA U8
+U 1 1 577D9C1E
+P 5500 3550
+F 0 "U8" H 5750 2950 60  0000 C CNN
+F 1 "N25Q00AA" H 5500 3550 60  0000 C CNN
+F 2 "mylib:SO-16-W" H 5500 3400 60  0001 C CNN
+F 3 "" H 5500 3400 60  0000 C CNN
+	1    5500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W6
+U 1 1 57AB8F5A
+P 3450 2700
+F 0 "W6" H 3450 2970 50  0000 C CNN
+F 1 "PIN_FLASH_DQ3" H 3450 2900 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 3650 2700 50  0001 C CNN
+F 3 "" H 3650 2700 50  0000 C CNN
+	1    3450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W7
+U 1 1 57AB9193
+P 3800 2850
+F 0 "W7" H 3800 3120 50  0000 C CNN
+F 1 "PIN_FLASH_CS" H 3800 3050 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 4000 2850 50  0001 C CNN
+F 3 "" H 4000 2850 50  0000 C CNN
+	1    3800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W8
+U 1 1 57AB91C5
+P 4150 3000
+F 0 "W8" H 4150 3270 50  0000 C CNN
+F 1 "PIN_FLASH_DQ1" H 4150 3200 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 4350 3000 50  0001 C CNN
+F 3 "" H 4350 3000 50  0000 C CNN
+	1    4150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2700 3450 3200
+Connection ~ 3450 3200
+Wire Wire Line
+	3800 2850 3800 3800
+Connection ~ 3800 3800
+Wire Wire Line
+	4150 3000 4150 3900
+Connection ~ 4150 3900
+$Comp
+L TEST_1P W9
+U 1 1 57AB9284
+P 6550 2700
+F 0 "W9" H 6550 2970 50  0000 C CNN
+F 1 "PIN_FLASH_SCLK" H 6550 2900 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 6750 2700 50  0001 C CNN
+F 3 "" H 6750 2700 50  0000 C CNN
+	1    6550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W10
+U 1 1 57AB92CA
+P 6900 2850
+F 0 "W10" H 6900 3120 50  0000 C CNN
+F 1 "PIN_FLASH_DQ0" H 6900 3050 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 7100 2850 50  0001 C CNN
+F 3 "" H 7100 2850 50  0000 C CNN
+	1    6900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W11
+U 1 1 57AB9307
+P 7250 3000
+F 0 "W11" H 7250 3270 50  0000 C CNN
+F 1 "PIN_FLASH_DQ2" H 7250 3200 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 7450 3000 50  0001 C CNN
+F 3 "" H 7450 3000 50  0000 C CNN
+	1    7250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2700 6550 3200
+Connection ~ 6550 3200
+Wire Wire Line
+	6900 2850 6900 3300
+Connection ~ 6900 3300
+Wire Wire Line
+	7250 3000 7250 3900
+Connection ~ 7250 3900
+$Comp
+L TEST_1P W37
+U 1 1 57AFDDE1
+P 6750 4500
+F 0 "W37" H 6750 4770 50  0000 C CNN
+F 1 "PIN_FLASH_GND" H 6750 4700 50  0000 C CNN
+F 2 "mylib:TestPad_09mmDrill" H 6950 4500 50  0001 C CNN
+F 3 "" H 6950 4500 50  0000 C CNN
+	1    6750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4500 6750 4600
+Wire Wire Line
+	6750 4600 6300 4600
+Connection ~ 6300 4600
+$Comp
+L R R49
+U 1 1 57BCA2F8
+P 4450 3500
+F 0 "R49" V 4530 3500 50  0000 C CNN
+F 1 "100k" V 4450 3500 50  0000 C CNN
+F 2 "mylib:R_1206" V 4380 3500 50  0001 C CNN
+F 3 "" H 4450 3500 50  0000 C CNN
+	1    4450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3650 4450 3800
+Connection ~ 4450 3800
+Wire Wire Line
+	4450 3350 4450 3300
+Connection ~ 4700 3300
+$EndSCHEMATC

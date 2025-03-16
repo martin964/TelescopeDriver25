@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "TEST4-rescue")(type "Legacy")(uri "${KIPRJMOD}/TEST4-rescue.lib")(options "")(descr ""))
+  (lib (name "myLib")(type "Legacy")(uri "${KIPRJMOD}/library/myLib.lib")(options "")(descr ""))
+  (lib (name "same70n21")(type "Legacy")(uri "${KIPRJMOD}/library/same70n21.lib")(options "")(descr ""))
+)

@@ -1,0 +1,778 @@
+EESchema Schematic File Version 2
+LIBS:TEST4-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myLib
+LIBS:same70n21
+LIBS:TEST4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C_Small C2
+U 1 1 57A20CF1
+P 4800 4600
+AR Path="/571EDF88/57A20CF1" Ref="C2"  Part="1" 
+AR Path="/5778BD6C/57A20CF1" Ref="C24"  Part="1" 
+AR Path="/57A1BFFF/57A20CF1" Ref="C24"  Part="1" 
+AR Path="/57A20BE2/57A20CF1" Ref="C53"  Part="1" 
+F 0 "C53" H 4810 4670 30  0000 L CNN
+F 1 "220n" H 4810 4520 30  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 4800 4600 50  0001 C CNN
+F 3 "" H 4800 4600 50  0000 C CNN
+	1    4800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 57A20CF2
+P 4800 4800
+AR Path="/571EDF88/57A20CF2" Ref="C1"  Part="1" 
+AR Path="/5778BD6C/57A20CF2" Ref="C23"  Part="1" 
+AR Path="/57A1BFFF/57A20CF2" Ref="C23"  Part="1" 
+AR Path="/57A20BE2/57A20CF2" Ref="C55"  Part="1" 
+F 0 "C55" H 4810 4870 30  0000 L CNN
+F 1 "220n" H 4810 4720 30  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 4800 4800 50  0001 C CNN
+F 3 "" H 4800 4800 50  0000 C CNN
+	1    4800 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L +24V #PWR18
+U 1 1 57210F76
+P 6200 3750
+AR Path="/571EDF88/57210F76" Ref="#PWR18"  Part="1" 
+AR Path="/5778BD6C/57210F76" Ref="#PWR42"  Part="1" 
+AR Path="/57A1BFFF/57210F76" Ref="#PWR112"  Part="1" 
+AR Path="/57A20BE2/57210F76" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 6200 3600 50  0001 C CNN
+F 1 "+24V" H 6200 3890 50  0000 C CNN
+F 2 "" H 6200 3750 50  0000 C CNN
+F 3 "" H 6200 3750 50  0000 C CNN
+	1    6200 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 5800 5100 2    60   Input ~ 0
+SLEEP
+Text HLabel 1900 4600 0    60   Input ~ 0
+STROBE
+$Comp
+L R R2
+U 1 1 57A20CF3
+P 1300 4500
+AR Path="/571EDF88/57A20CF3" Ref="R2"  Part="1" 
+AR Path="/5778BD6C/57A20CF3" Ref="R6"  Part="1" 
+AR Path="/57A1BFFF/57A20CF3" Ref="R6"  Part="1" 
+AR Path="/57A20BE2/57A20CF3" Ref="R32"  Part="1" 
+F 0 "R32" V 1380 4500 50  0000 C CNN
+F 1 "0,167" V 1300 4500 50  0000 C CNN
+F 2 "mylib:R_2512_HandSoldering" V 1230 4500 50  0001 C CNN
+F 3 "" H 1300 4500 50  0000 C CNN
+	1    1300 4500
+	-1   0    0    1   
+$EndComp
+Text GLabel 1900 4700 0    60   Input ~ 0
+SPI0_CLK
+Text GLabel 1900 4800 0    60   Input ~ 0
+SPI0_MOSI
+$Comp
+L D_Schottky D8
+U 1 1 5779554B
+P 6450 2100
+AR Path="/571EDF88/5779554B" Ref="D8"  Part="1" 
+AR Path="/5778BD6C/5779554B" Ref="D16"  Part="1" 
+AR Path="/57A1BFFF/5779554B" Ref="D16"  Part="1" 
+AR Path="/57A20BE2/5779554B" Ref="D29"  Part="1" 
+F 0 "D29" H 6450 2200 50  0000 C CNN
+F 1 "50V 2A" H 6450 2000 50  0000 C CNN
+F 2 "mylib:Diode_DO-41_SOD81_Horizontal_RM10" H 6450 2100 50  0001 C CNN
+F 3 "" H 6450 2100 50  0000 C CNN
+	1    6450 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D6
+U 1 1 57A20CF5
+P 6200 2100
+AR Path="/571EDF88/57A20CF5" Ref="D6"  Part="1" 
+AR Path="/5778BD6C/57A20CF5" Ref="D14"  Part="1" 
+AR Path="/57A1BFFF/57A20CF5" Ref="D14"  Part="1" 
+AR Path="/57A20BE2/57A20CF5" Ref="D27"  Part="1" 
+F 0 "D27" H 6200 2200 50  0000 C CNN
+F 1 "50V 2A" H 6200 2000 50  0000 C CNN
+F 2 "mylib:Diode_DO-41_SOD81_Horizontal_RM10" H 6200 2100 50  0001 C CNN
+F 3 "" H 6200 2100 50  0000 C CNN
+	1    6200 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D4
+U 1 1 57795815
+P 5900 2100
+AR Path="/571EDF88/57795815" Ref="D4"  Part="1" 
+AR Path="/5778BD6C/57795815" Ref="D12"  Part="1" 
+AR Path="/57A1BFFF/57795815" Ref="D12"  Part="1" 
+AR Path="/57A20BE2/57795815" Ref="D25"  Part="1" 
+F 0 "D25" H 5900 2200 50  0000 C CNN
+F 1 "50V 2A" H 5900 2000 50  0000 C CNN
+F 2 "mylib:Diode_DO-41_SOD81_Horizontal_RM10" H 5900 2100 50  0001 C CNN
+F 3 "" H 5900 2100 50  0000 C CNN
+	1    5900 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D2
+U 1 1 5779584E
+P 5600 2100
+AR Path="/571EDF88/5779584E" Ref="D2"  Part="1" 
+AR Path="/5778BD6C/5779584E" Ref="D10"  Part="1" 
+AR Path="/57A1BFFF/5779584E" Ref="D10"  Part="1" 
+AR Path="/57A20BE2/5779584E" Ref="D23"  Part="1" 
+F 0 "D23" H 5600 2200 50  0000 C CNN
+F 1 "50V 2A" H 5600 2000 50  0000 C CNN
+F 2 "mylib:Diode_DO-41_SOD81_Horizontal_RM10" H 5600 2100 50  0001 C CNN
+F 3 "" H 5600 2100 50  0000 C CNN
+	1    5600 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D3
+U 1 1 5779590C
+P 5600 3050
+AR Path="/571EDF88/5779590C" Ref="D3"  Part="1" 
+AR Path="/5778BD6C/5779590C" Ref="D11"  Part="1" 
+AR Path="/57A1BFFF/5779590C" Ref="D11"  Part="1" 
+AR Path="/57A20BE2/5779590C" Ref="D24"  Part="1" 
+F 0 "D24" H 5600 3150 50  0000 C CNN
+F 1 "50V 2A" H 5600 2950 50  0000 C CNN
+F 2 "mylib:Diode_DO-41_SOD81_Horizontal_RM10" H 5600 3050 50  0001 C CNN
+F 3 "" H 5600 3050 50  0000 C CNN
+	1    5600 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D5
+U 1 1 57A20CF8
+P 5900 3050
+AR Path="/571EDF88/57A20CF8" Ref="D5"  Part="1" 
+AR Path="/5778BD6C/57A20CF8" Ref="D13"  Part="1" 
+AR Path="/57A1BFFF/57A20CF8" Ref="D13"  Part="1" 
+AR Path="/57A20BE2/57A20CF8" Ref="D26"  Part="1" 
+F 0 "D26" H 5900 3150 50  0000 C CNN
+F 1 "50V 2A" H 5900 2950 50  0000 C CNN
+F 2 "mylib:Diode_DO-41_SOD81_Horizontal_RM10" H 5900 3050 50  0001 C CNN
+F 3 "" H 5900 3050 50  0000 C CNN
+	1    5900 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D7
+U 1 1 57A20CF9
+P 6200 3050
+AR Path="/571EDF88/57A20CF9" Ref="D7"  Part="1" 
+AR Path="/5778BD6C/57A20CF9" Ref="D15"  Part="1" 
+AR Path="/57A1BFFF/57A20CF9" Ref="D15"  Part="1" 
+AR Path="/57A20BE2/57A20CF9" Ref="D28"  Part="1" 
+F 0 "D28" H 6200 3150 50  0000 C CNN
+F 1 "50V 2A" H 6200 2950 50  0000 C CNN
+F 2 "mylib:Diode_DO-41_SOD81_Horizontal_RM10" H 6200 3050 50  0001 C CNN
+F 3 "" H 6200 3050 50  0000 C CNN
+	1    6200 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D9
+U 1 1 577959F0
+P 6450 3050
+AR Path="/571EDF88/577959F0" Ref="D9"  Part="1" 
+AR Path="/5778BD6C/577959F0" Ref="D17"  Part="1" 
+AR Path="/57A1BFFF/577959F0" Ref="D17"  Part="1" 
+AR Path="/57A20BE2/577959F0" Ref="D30"  Part="1" 
+F 0 "D30" H 6450 3150 50  0000 C CNN
+F 1 "50V 2A" H 6450 2950 50  0000 C CNN
+F 2 "mylib:Diode_DO-41_SOD81_Horizontal_RM10" H 6450 3050 50  0001 C CNN
+F 3 "" H 6450 3050 50  0000 C CNN
+	1    6450 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR21
+U 1 1 57795A6E
+P 6650 3500
+AR Path="/571EDF88/57795A6E" Ref="#PWR21"  Part="1" 
+AR Path="/5778BD6C/57795A6E" Ref="#PWR45"  Part="1" 
+AR Path="/57A1BFFF/57795A6E" Ref="#PWR115"  Part="1" 
+AR Path="/57A20BE2/57795A6E" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 6650 3250 50  0001 C CNN
+F 1 "GND" H 6650 3350 50  0000 C CNN
+F 2 "" H 6650 3500 50  0000 C CNN
+F 3 "" H 6650 3500 50  0000 C CNN
+	1    6650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR20
+U 1 1 5779609B
+P 6650 1750
+AR Path="/571EDF88/5779609B" Ref="#PWR20"  Part="1" 
+AR Path="/5778BD6C/5779609B" Ref="#PWR44"  Part="1" 
+AR Path="/57A1BFFF/5779609B" Ref="#PWR114"  Part="1" 
+AR Path="/57A20BE2/5779609B" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 6650 1600 50  0001 C CNN
+F 1 "+24V" H 6650 1890 50  0000 C CNN
+F 2 "" H 6650 1750 50  0000 C CNN
+F 3 "" H 6650 1750 50  0000 C CNN
+	1    6650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C35
+U 1 1 57796F55
+P 1000 4500
+AR Path="/571EDF88/57796F55" Ref="C35"  Part="1" 
+AR Path="/5778BD6C/57796F55" Ref="C37"  Part="1" 
+AR Path="/57A1BFFF/57796F55" Ref="C37"  Part="1" 
+AR Path="/57A20BE2/57796F55" Ref="C26"  Part="1" 
+F 0 "C26" H 1010 4570 30  0000 L CNN
+F 1 "100n" H 1010 4420 30  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 1000 4500 50  0001 C CNN
+F 3 "" H 1000 4500 50  0000 C CNN
+	1    1000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1850 6650 1750
+Wire Wire Line
+	5600 1850 6650 1850
+Wire Wire Line
+	5600 1850 5600 1950
+Wire Wire Line
+	6450 1950 6450 1850
+Connection ~ 6450 1850
+Wire Wire Line
+	6200 1950 6200 1850
+Connection ~ 6200 1850
+Wire Wire Line
+	5900 1950 5900 1850
+Connection ~ 5900 1850
+Wire Wire Line
+	6650 2300 6650 3500
+Wire Wire Line
+	5600 3300 6650 3300
+Wire Wire Line
+	5600 3300 5600 3200
+Wire Wire Line
+	5900 3200 5900 3300
+Connection ~ 5900 3300
+Wire Wire Line
+	6200 3200 6200 3300
+Connection ~ 6200 3300
+Wire Wire Line
+	6450 3200 6450 3300
+Connection ~ 6450 3300
+Wire Wire Line
+	5600 2250 5600 2900
+Wire Wire Line
+	5900 2250 5900 2900
+Wire Wire Line
+	6200 2250 6200 2900
+Wire Wire Line
+	6450 2250 6450 2900
+Connection ~ 6450 2400
+Connection ~ 6200 2500
+Connection ~ 5900 2600
+Connection ~ 5600 2700
+$Comp
+L C_Small C39
+U 1 1 5779A7CE
+P 4750 5650
+AR Path="/571EDF88/5779A7CE" Ref="C39"  Part="1" 
+AR Path="/5778BD6C/5779A7CE" Ref="C41"  Part="1" 
+AR Path="/57A1BFFF/5779A7CE" Ref="C41"  Part="1" 
+AR Path="/57A20BE2/5779A7CE" Ref="C42"  Part="1" 
+F 0 "C42" H 4760 5720 30  0000 L CNN
+F 1 "220n" H 4760 5570 30  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 4750 5650 50  0001 C CNN
+F 3 "" H 4750 5650 50  0000 C CNN
+	1    4750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C40
+U 1 1 57A20CFF
+P 5650 5650
+AR Path="/5778BD6C/57A20CFF" Ref="C40"  Part="1" 
+AR Path="/571EDF88/57A20CFF" Ref="C38"  Part="1" 
+AR Path="/57A1BFFF/57A20CFF" Ref="C40"  Part="1" 
+AR Path="/57A20BE2/57A20CFF" Ref="C71"  Part="1" 
+F 0 "C71" H 5660 5720 50  0000 L CNN
+F 1 "100µ50V" H 5660 5570 50  0000 L CNN
+F 2 "mylib:C_Radial_D10_L13_P5" H 5650 5650 50  0001 C CNN
+F 3 "" H 5650 5650 50  0000 C CNN
+F 4 "Reichelt RAD FR 100/63" H 5650 5650 60  0001 C CNN "Typ"
+	1    5650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_STEPPER P3
+U 1 1 578800ED
+P 7450 2500
+AR Path="/571EDF88/578800ED" Ref="P3"  Part="1" 
+AR Path="/5778BD6C/578800ED" Ref="P4"  Part="1" 
+AR Path="/57A1BFFF/578800ED" Ref="P4"  Part="1" 
+AR Path="/57A20BE2/578800ED" Ref="P19"  Part="1" 
+F 0 "P19" H 7450 2200 50  0000 C CNN
+F 1 "CONN_STEPPER" V 7200 2500 50  0000 C CNN
+F 2 "mylib:Pin_Header_Straight_LForm_1x05" H 7350 2500 50  0001 C CNN
+F 3 "" H 7350 2500 50  0000 C CNN
+	1    7450 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR13
+U 1 1 578A7399
+P 3850 5150
+AR Path="/571EDF88/578A7399" Ref="#PWR13"  Part="1" 
+AR Path="/5778BD6C/578A7399" Ref="#PWR37"  Part="1" 
+AR Path="/57A1BFFF/578A7399" Ref="#PWR107"  Part="1" 
+AR Path="/57A20BE2/578A7399" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 3850 4900 50  0001 C CNN
+F 1 "GND" H 3850 5000 50  0000 C CNN
+F 2 "" H 3850 5150 50  0000 C CNN
+F 3 "" H 3850 5150 50  0000 C CNN
+	1    3850 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4550 3850 4550
+Wire Wire Line
+	3850 4550 3850 5150
+Wire Wire Line
+	3800 5050 3850 5050
+Connection ~ 3850 5050
+Wire Wire Line
+	3800 4950 3850 4950
+Connection ~ 3850 4950
+Wire Wire Line
+	3800 4850 3850 4850
+Connection ~ 3850 4850
+Wire Wire Line
+	3800 4750 3850 4750
+Connection ~ 3850 4750
+Wire Wire Line
+	3800 4650 3850 4650
+Connection ~ 3850 4650
+$Comp
+L GND #PWR12
+U 1 1 578A797D
+P 2600 5900
+AR Path="/571EDF88/578A797D" Ref="#PWR12"  Part="1" 
+AR Path="/5778BD6C/578A797D" Ref="#PWR36"  Part="1" 
+AR Path="/57A1BFFF/578A797D" Ref="#PWR106"  Part="1" 
+AR Path="/57A20BE2/578A797D" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 2600 5650 50  0001 C CNN
+F 1 "GND" H 2600 5750 50  0000 C CNN
+F 2 "" H 2600 5900 50  0000 C CNN
+F 3 "" H 2600 5900 50  0000 C CNN
+	1    2600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR14
+U 1 1 578A7A0A
+P 4550 5900
+AR Path="/571EDF88/578A7A0A" Ref="#PWR14"  Part="1" 
+AR Path="/5778BD6C/578A7A0A" Ref="#PWR38"  Part="1" 
+AR Path="/57A1BFFF/578A7A0A" Ref="#PWR108"  Part="1" 
+AR Path="/57A20BE2/578A7A0A" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 4550 5650 50  0001 C CNN
+F 1 "GND" H 4550 5750 50  0000 C CNN
+F 2 "" H 4550 5900 50  0000 C CNN
+F 3 "" H 4550 5900 50  0000 C CNN
+	1    4550 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4900 4550 4900
+Wire Wire Line
+	4550 4900 4550 5900
+Wire Wire Line
+	2700 4900 2600 4900
+Wire Wire Line
+	2600 4900 2600 5900
+Wire Wire Line
+	1000 4300 2700 4300
+Wire Wire Line
+	1300 4300 1300 4350
+Wire Wire Line
+	1000 4300 1000 4400
+Connection ~ 1300 4300
+$Comp
+L GND #PWR10
+U 1 1 57A20D04
+P 1150 4800
+AR Path="/571EDF88/57A20D04" Ref="#PWR10"  Part="1" 
+AR Path="/5778BD6C/57A20D04" Ref="#PWR34"  Part="1" 
+AR Path="/57A1BFFF/57A20D04" Ref="#PWR104"  Part="1" 
+AR Path="/57A20BE2/57A20D04" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 1150 4550 50  0001 C CNN
+F 1 "GND" H 1150 4650 50  0000 C CNN
+F 2 "" H 1150 4800 50  0000 C CNN
+F 3 "" H 1150 4800 50  0000 C CNN
+	1    1150 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4700 1300 4650
+Wire Wire Line
+	1000 4700 1300 4700
+Wire Wire Line
+	1000 4700 1000 4600
+Wire Wire Line
+	1150 4800 1150 4700
+Connection ~ 1150 4700
+Wire Wire Line
+	2700 4700 1900 4700
+Wire Wire Line
+	2700 4800 1900 4800
+$Comp
+L R R1
+U 1 1 578ABC7A
+P 1300 5600
+AR Path="/571EDF88/578ABC7A" Ref="R1"  Part="1" 
+AR Path="/5778BD6C/578ABC7A" Ref="R5"  Part="1" 
+AR Path="/57A1BFFF/578ABC7A" Ref="R5"  Part="1" 
+AR Path="/57A20BE2/578ABC7A" Ref="R33"  Part="1" 
+F 0 "R33" V 1380 5600 50  0000 C CNN
+F 1 "0,167" V 1300 5600 50  0000 C CNN
+F 2 "mylib:R_2512_HandSoldering" V 1230 5600 50  0001 C CNN
+F 3 "" H 1300 5600 50  0000 C CNN
+	1    1300 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C25
+U 1 1 57A20D06
+P 1000 5600
+AR Path="/571EDF88/57A20D06" Ref="C25"  Part="1" 
+AR Path="/5778BD6C/57A20D06" Ref="C64"  Part="1" 
+AR Path="/57A1BFFF/57A20D06" Ref="C64"  Part="1" 
+AR Path="/57A20BE2/57A20D06" Ref="C27"  Part="1" 
+F 0 "C27" H 1010 5670 30  0000 L CNN
+F 1 "100n" H 1010 5520 30  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 1000 5600 50  0001 C CNN
+F 3 "" H 1000 5600 50  0000 C CNN
+	1    1000 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5400 1000 5500
+Wire Wire Line
+	1000 5400 2700 5400
+Wire Wire Line
+	1300 5400 1300 5450
+Connection ~ 1300 5400
+Wire Wire Line
+	1300 5800 1300 5750
+Wire Wire Line
+	1000 5800 1300 5800
+Wire Wire Line
+	1000 5800 1000 5700
+$Comp
+L GND #PWR11
+U 1 1 57A20D07
+P 1150 5900
+AR Path="/571EDF88/57A20D07" Ref="#PWR11"  Part="1" 
+AR Path="/5778BD6C/57A20D07" Ref="#PWR35"  Part="1" 
+AR Path="/57A1BFFF/57A20D07" Ref="#PWR105"  Part="1" 
+AR Path="/57A20BE2/57A20D07" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 1150 5650 50  0001 C CNN
+F 1 "GND" H 1150 5750 50  0000 C CNN
+F 2 "" H 1150 5900 50  0000 C CNN
+F 3 "" H 1150 5900 50  0000 C CNN
+	1    1150 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5800 1150 5900
+Connection ~ 1150 5800
+NoConn ~ 2700 5000
+$Comp
+L A3992 U1
+U 1 1 578A72BC
+P 3600 4850
+AR Path="/571EDF88/578A72BC" Ref="U1"  Part="1" 
+AR Path="/5778BD6C/578A72BC" Ref="U3"  Part="1" 
+AR Path="/57A1BFFF/578A72BC" Ref="U3"  Part="1" 
+AR Path="/57A20BE2/578A72BC" Ref="U15"  Part="1" 
+F 0 "U15" H 3600 4100 60  0000 C CNN
+F 1 "A3992" H 3600 5650 60  0000 C CNN
+F 2 "mylib:SSOP24_A3992_Pitch0.65mm" H 3600 5650 60  0001 C CNN
+F 3 "" H 3600 5650 60  0000 C CNN
+	1    3600 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5100 2600 5100
+Connection ~ 2600 5100
+$Comp
+L +3.3V #PWR8
+U 1 1 578AD100
+P 700 3750
+AR Path="/571EDF88/578AD100" Ref="#PWR8"  Part="1" 
+AR Path="/5778BD6C/578AD100" Ref="#PWR32"  Part="1" 
+AR Path="/57A1BFFF/578AD100" Ref="#PWR102"  Part="1" 
+AR Path="/57A20BE2/578AD100" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 700 3600 50  0001 C CNN
+F 1 "+3.3V" H 700 3890 50  0000 C CNN
+F 2 "" H 700 3750 50  0000 C CNN
+F 3 "" H 700 3750 50  0000 C CNN
+	1    700  3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  3750 700  5550
+$Comp
+L GND #PWR9
+U 1 1 578AD36E
+P 700 5900
+AR Path="/571EDF88/578AD36E" Ref="#PWR9"  Part="1" 
+AR Path="/5778BD6C/578AD36E" Ref="#PWR33"  Part="1" 
+AR Path="/57A1BFFF/578AD36E" Ref="#PWR103"  Part="1" 
+AR Path="/57A20BE2/578AD36E" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 700 5650 50  0001 C CNN
+F 1 "GND" H 700 5750 50  0000 C CNN
+F 2 "" H 700 5900 50  0000 C CNN
+F 3 "" H 700 5900 50  0000 C CNN
+	1    700  5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 578AD3BB
+P 700 5650
+AR Path="/571EDF88/578AD3BB" Ref="C3"  Part="1" 
+AR Path="/5778BD6C/578AD3BB" Ref="C36"  Part="1" 
+AR Path="/57A1BFFF/578AD3BB" Ref="C36"  Part="1" 
+AR Path="/57A20BE2/578AD3BB" Ref="C13"  Part="1" 
+F 0 "C13" H 710 5720 30  0000 L CNN
+F 1 "100n" H 710 5570 30  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 700 5650 50  0001 C CNN
+F 3 "" H 700 5650 50  0000 C CNN
+	1    700  5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  5750 700  5900
+Wire Wire Line
+	2700 5200 700  5200
+Connection ~ 700  5200
+$Comp
+L GND #PWR19
+U 1 1 578AE044
+P 6200 5900
+AR Path="/571EDF88/578AE044" Ref="#PWR19"  Part="1" 
+AR Path="/5778BD6C/578AE044" Ref="#PWR43"  Part="1" 
+AR Path="/57A1BFFF/578AE044" Ref="#PWR113"  Part="1" 
+AR Path="/57A20BE2/578AE044" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 6200 5650 50  0001 C CNN
+F 1 "GND" H 6200 5750 50  0000 C CNN
+F 2 "" H 6200 5900 50  0000 C CNN
+F 3 "" H 6200 5900 50  0000 C CNN
+	1    6200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C34
+U 1 1 57A20D0A
+P 6200 5650
+AR Path="/571EDF88/57A20D0A" Ref="C34"  Part="1" 
+AR Path="/5778BD6C/57A20D0A" Ref="C65"  Part="1" 
+AR Path="/57A1BFFF/57A20D0A" Ref="C65"  Part="1" 
+AR Path="/57A20BE2/57A20D0A" Ref="C72"  Part="1" 
+F 0 "C72" H 6210 5720 30  0000 L CNN
+F 1 "100n" H 6210 5570 30  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 6200 5650 50  0001 C CNN
+F 3 "" H 6200 5650 50  0000 C CNN
+	1    6200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5400 4450 5400
+Connection ~ 6200 5400
+Wire Wire Line
+	4450 4300 6200 4300
+Connection ~ 6200 4300
+Connection ~ 6200 5500
+Wire Wire Line
+	6200 5500 5650 5500
+Wire Wire Line
+	5650 5500 5650 5550
+Wire Wire Line
+	6200 5800 5650 5800
+Wire Wire Line
+	5650 5800 5650 5750
+Connection ~ 6200 5800
+Wire Wire Line
+	6200 3750 6200 5550
+Wire Wire Line
+	6200 5750 6200 5900
+Wire Wire Line
+	4450 4600 4700 4600
+Wire Wire Line
+	4450 4800 4700 4800
+Wire Wire Line
+	4450 4700 4950 4700
+Wire Wire Line
+	4950 4700 4950 4600
+Wire Wire Line
+	4950 4600 4900 4600
+Wire Wire Line
+	4900 4800 6200 4800
+Connection ~ 6200 4800
+Wire Wire Line
+	4450 5200 4750 5200
+Wire Wire Line
+	4750 5200 4750 5550
+$Comp
+L GND #PWR15
+U 1 1 578B1C97
+P 4750 5900
+AR Path="/571EDF88/578B1C97" Ref="#PWR15"  Part="1" 
+AR Path="/5778BD6C/578B1C97" Ref="#PWR39"  Part="1" 
+AR Path="/57A1BFFF/578B1C97" Ref="#PWR109"  Part="1" 
+AR Path="/57A20BE2/578B1C97" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 4750 5650 50  0001 C CNN
+F 1 "GND" H 4750 5750 50  0000 C CNN
+F 2 "" H 4750 5900 50  0000 C CNN
+F 3 "" H 4750 5900 50  0000 C CNN
+	1    4750 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5750 4750 5900
+Wire Wire Line
+	4450 5100 5800 5100
+Wire Wire Line
+	4450 5000 4950 5000
+Wire Wire Line
+	4550 4500 4450 4500
+Wire Wire Line
+	2600 4400 2700 4400
+Wire Wire Line
+	2700 5300 2500 5300
+Wire Wire Line
+	2500 5300 2500 2700
+Wire Wire Line
+	6650 2300 7100 2300
+Connection ~ 6650 3300
+Wire Wire Line
+	4450 5300 5050 5300
+$Comp
+L C_Small C66
+U 1 1 578B88AD
+P 5150 4450
+AR Path="/571EDF88/578B88AD" Ref="C66"  Part="1" 
+AR Path="/5778BD6C/578B88AD" Ref="C67"  Part="1" 
+AR Path="/57A1BFFF/578B88AD" Ref="C67"  Part="1" 
+AR Path="/57A20BE2/578B88AD" Ref="C70"  Part="1" 
+F 0 "C70" H 5160 4520 30  0000 L CNN
+F 1 "100n" H 5160 4370 30  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 5150 4450 50  0001 C CNN
+F 3 "" H 5150 4450 50  0000 C CNN
+	1    5150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4300 5150 4350
+Connection ~ 5150 4300
+$Comp
+L GND #PWR17
+U 1 1 578B8D3B
+P 5150 5900
+AR Path="/571EDF88/578B8D3B" Ref="#PWR17"  Part="1" 
+AR Path="/5778BD6C/578B8D3B" Ref="#PWR41"  Part="1" 
+AR Path="/57A1BFFF/578B8D3B" Ref="#PWR111"  Part="1" 
+AR Path="/57A20BE2/578B8D3B" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 5150 5650 50  0001 C CNN
+F 1 "GND" H 5150 5750 50  0000 C CNN
+F 2 "" H 5150 5900 50  0000 C CNN
+F 3 "" H 5150 5900 50  0000 C CNN
+	1    5150 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4550 5150 5900
+Wire Wire Line
+	2600 2400 2600 4400
+Wire Wire Line
+	4550 2500 4550 4500
+Wire Wire Line
+	5050 5300 5050 2600
+Wire Wire Line
+	4550 2500 7100 2500
+Wire Wire Line
+	2600 2400 7100 2400
+Wire Wire Line
+	2500 2700 7100 2700
+Wire Wire Line
+	5050 2600 7100 2600
+Wire Wire Line
+	2700 4600 1900 4600
+$Comp
+L GND #PWR16
+U 1 1 578E8101
+P 4950 5900
+AR Path="/571EDF88/578E8101" Ref="#PWR16"  Part="1" 
+AR Path="/5778BD6C/578E8101" Ref="#PWR40"  Part="1" 
+AR Path="/57A1BFFF/578E8101" Ref="#PWR110"  Part="1" 
+AR Path="/57A20BE2/578E8101" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 4950 5650 50  0001 C CNN
+F 1 "GND" H 4950 5750 50  0000 C CNN
+F 2 "" H 4950 5900 50  0000 C CNN
+F 3 "" H 4950 5900 50  0000 C CNN
+	1    4950 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5000 4950 5900
+$EndSCHEMATC

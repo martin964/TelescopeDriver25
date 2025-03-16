@@ -1,0 +1,344 @@
+EESchema Schematic File Version 2
+LIBS:TEST4-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myLib
+LIBS:same70n21
+LIBS:TEST4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 8600 1050 1700 650 
+U 571EDF88
+F0 "StepperA" 60
+F1 "StepperA.sch" 60
+$EndSheet
+$Sheet
+S 2000 1050 1700 650 
+U 571E5A5A
+F0 "CPU" 60
+F1 "cpu_atsame70.sch" 60
+$EndSheet
+$Sheet
+S 2000 2050 1700 700 
+U 57794161
+F0 "POWER_USB" 60
+F1 "USB.sch" 60
+$EndSheet
+$Sheet
+S 2000 3050 1700 700 
+U 577AA24A
+F0 "MEMORY" 60
+F1 "MEMORY.sch" 60
+$EndSheet
+$Sheet
+S 2000 4050 1700 700 
+U 577AA28D
+F0 "HANDBOX" 60
+F1 "HANDBOX.sch" 60
+$EndSheet
+$Sheet
+S 5150 3050 1700 700 
+U 577ABEC0
+F0 "RTC" 60
+F1 "RTC.sch" 60
+$EndSheet
+$Sheet
+S 5150 4050 1700 700 
+U 57818D10
+F0 "SERIAL_PORTS" 60
+F1 "SERIAL_PORTS.sch" 60
+$EndSheet
+$Sheet
+S 5150 1050 1700 650 
+U 57819E10
+F0 "ENCODER_ST4" 60
+F1 "ENCODER_ST4.sch" 60
+$EndSheet
+$Sheet
+S 5150 2050 1700 700 
+U 57819F53
+F0 "IP2000" 60
+F1 "IP2000.sch" 60
+$EndSheet
+$Sheet
+S 5150 5050 1700 700 
+U 57819F64
+F0 "ETHERNET" 60
+F1 "ETHERNET.sch" 60
+$EndSheet
+$Sheet
+S 2000 5050 1700 700 
+U 578463B0
+F0 "ARMJTAG" 60
+F1 "ARMJTAG.sch" 60
+$EndSheet
+$Comp
+L CONN_01X01 P8
+U 1 1 578A3D60
+P 900 3500
+F 0 "P8" H 900 3600 50  0000 C CNN
+F 1 "CONN_01X01" V 1000 3500 50  0000 C CNN
+F 2 "mylib:MountingHole_3.2mm_M3" H 900 3500 50  0001 C CNN
+F 3 "" H 900 3500 50  0000 C CNN
+	1    900  3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P14
+U 1 1 578A3E82
+P 1250 3500
+F 0 "P14" H 1250 3600 50  0000 C CNN
+F 1 "CONN_01X01" V 1350 3500 50  0000 C CNN
+F 2 "mylib:MountingHole_3.2mm_M3" H 1250 3500 50  0001 C CNN
+F 3 "" H 1250 3500 50  0000 C CNN
+	1    1250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P13
+U 1 1 578A3EBA
+P 900 4000
+F 0 "P13" H 900 4100 50  0000 C CNN
+F 1 "CONN_01X01" V 1000 4000 50  0000 C CNN
+F 2 "mylib:MountingHole_3.2mm_M3" H 900 4000 50  0001 C CNN
+F 3 "" H 900 4000 50  0000 C CNN
+	1    900  4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P15
+U 1 1 578A3F09
+P 1250 4000
+F 0 "P15" H 1250 4100 50  0000 C CNN
+F 1 "CONN_01X01" V 1350 4000 50  0000 C CNN
+F 2 "mylib:MountingHole_3.2mm_M3" H 1250 4000 50  0001 C CNN
+F 3 "" H 1250 4000 50  0000 C CNN
+	1    1250 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 700  3500
+NoConn ~ 1050 3500
+NoConn ~ 700  4000
+NoConn ~ 1050 4000
+$Comp
+L CONN_01X01 P16
+U 1 1 578B4428
+P 900 4650
+F 0 "P16" H 900 4750 50  0000 C CNN
+F 1 "CONN_01X01" V 1000 4650 50  0000 C CNN
+F 2 "mylib:MountingHole_3.2mm_M3" H 900 4650 50  0001 C CNN
+F 3 "" H 900 4650 50  0000 C CNN
+	1    900  4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P17
+U 1 1 578B4477
+P 1250 4650
+F 0 "P17" H 1250 4750 50  0000 C CNN
+F 1 "CONN_01X01" V 1350 4650 50  0000 C CNN
+F 2 "mylib:MountingHole_3.2mm_M3" H 1250 4650 50  0001 C CNN
+F 3 "" H 1250 4650 50  0000 C CNN
+	1    1250 4650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 700  4650
+NoConn ~ 1050 4650
+$Comp
+L CONN_STEPPER_3_4 P18
+U 1 1 578BA63C
+P 9000 4900
+F 0 "P18" H 9000 4350 50  0000 C CNN
+F 1 "CONN_STEPPER_3_4" H 9000 5450 50  0000 C CNN
+F 2 "mylib:Pin_Header_Straight_2x10" H 9000 3700 50  0001 C CNN
+F 3 "" H 9000 3700 50  0000 C CNN
+	1    9000 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 5050 0    60   Input ~ 0
+A3992_SLEEP
+Text GLabel 7800 4850 0    60   Input ~ 0
+SPI0_NPCS3
+Wire Wire Line
+	7800 4750 8450 4750
+Wire Wire Line
+	7800 4950 8450 4950
+Wire Wire Line
+	7800 5050 8450 5050
+Text GLabel 10100 4850 2    60   Input ~ 0
+SPI0_CLK
+Text GLabel 10100 4950 2    60   Input ~ 0
+SPI0_MOSI
+Wire Wire Line
+	10100 4850 9550 4850
+Wire Wire Line
+	10100 4950 9550 4950
+$Comp
+L +24V #PWR01
+U 1 1 578BAAA0
+P 9800 3950
+F 0 "#PWR01" H 9800 3800 50  0001 C CNN
+F 1 "+24V" H 9800 4090 50  0000 C CNN
+F 2 "" H 9800 3950 50  0000 C CNN
+F 3 "" H 9800 3950 50  0000 C CNN
+	1    9800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4450 9550 4450
+$Comp
+L GND #PWR02
+U 1 1 578BAB71
+P 9800 5900
+F 0 "#PWR02" H 9800 5650 50  0001 C CNN
+F 1 "GND" H 9800 5750 50  0000 C CNN
+F 2 "" H 9800 5900 50  0000 C CNN
+F 3 "" H 9800 5900 50  0000 C CNN
+	1    9800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 578BABB0
+P 8250 5900
+F 0 "#PWR03" H 8250 5650 50  0001 C CNN
+F 1 "GND" H 8250 5750 50  0000 C CNN
+F 2 "" H 8250 5900 50  0000 C CNN
+F 3 "" H 8250 5900 50  0000 C CNN
+	1    8250 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4650 9800 4650
+Wire Wire Line
+	9800 4550 9800 5900
+Wire Wire Line
+	9550 5150 9800 5150
+Connection ~ 9800 5150
+Wire Wire Line
+	8450 4650 8250 4650
+Wire Wire Line
+	8250 5150 8450 5150
+Connection ~ 8250 5150
+$Comp
+L +3.3V #PWR04
+U 1 1 578BAE09
+P 8100 3950
+F 0 "#PWR04" H 8100 3800 50  0001 C CNN
+F 1 "+3.3V" H 8100 4090 50  0000 C CNN
+F 2 "" H 8100 3950 50  0000 C CNN
+F 3 "" H 8100 3950 50  0000 C CNN
+	1    8100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3950 8100 5550
+Text GLabel 7800 4750 0    60   Input ~ 0
+SPI0_NPCS2
+Wire Wire Line
+	7800 4850 8450 4850
+Wire Wire Line
+	8450 5250 8100 5250
+Connection ~ 8100 5250
+Wire Wire Line
+	9550 5250 9650 5250
+Wire Wire Line
+	9650 5250 9650 5550
+Wire Wire Line
+	9650 5550 8100 5550
+Wire Wire Line
+	8250 4550 8250 5900
+$Comp
+L +5V #PWR05
+U 1 1 57AAA659
+P 10900 5200
+F 0 "#PWR05" H 10900 5050 50  0001 C CNN
+F 1 "+5V" H 10900 5340 50  0000 C CNN
+F 2 "" H 10900 5200 50  0000 C CNN
+F 3 "" H 10900 5200 50  0000 C CNN
+	1    10900 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4150 8250 4150
+Connection ~ 9800 4150
+Wire Wire Line
+	8450 4450 8250 4450
+Text GLabel 7800 4950 0    60   Output ~ 0
+SPI0_MISO
+Wire Wire Line
+	10900 5200 10900 5650
+Wire Wire Line
+	10900 5350 9550 5350
+Wire Wire Line
+	10900 5650 8350 5650
+Wire Wire Line
+	8350 5650 8350 5350
+Wire Wire Line
+	8350 5350 8450 5350
+Connection ~ 10900 5350
+$Sheet
+S 8600 2050 1700 700 
+U 5778BD6C
+F0 "Sheet5778BD6B" 60
+F1 "StepperB.sch" 60
+$EndSheet
+Wire Wire Line
+	9800 3950 9800 4450
+Wire Wire Line
+	9550 4550 9800 4550
+Connection ~ 9800 4650
+Wire Wire Line
+	8250 4450 8250 4150
+Wire Wire Line
+	8450 4550 8250 4550
+Connection ~ 8250 4650
+Text GLabel 10100 4750 2    60   Input ~ 0
+SPI0_NPCS1
+Text GLabel 10100 5050 2    60   Input ~ 0
+SPI0_NPCS0
+Wire Wire Line
+	10100 4750 9550 4750
+Wire Wire Line
+	10100 5050 9550 5050
+$EndSCHEMATC

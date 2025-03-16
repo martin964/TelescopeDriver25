@@ -1,0 +1,1731 @@
+Cmp-Mod V01 Created by PcbNew   date = 22.08.2016 21:15:20
+
+BeginCmp
+TimeStamp = 57B220E8
+Path = /57819E10/5788127A
+Reference = P11;
+ValeurCmp = CONN_ST4;
+IdModule  = mylib:Conn_Modular_6;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B20E52
+Path = /57819F53/57B20FAB
+Reference = U12;
+ValeurCmp = TXB0108;
+IdModule  = SMD_Packages:SSOP-20;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF52EF
+Path = /577AA24A/57AFDDE1
+Reference = W37;
+ValeurCmp = PIN_FLASH_GND;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF4E04
+Path = /577ABEC0/57AFCBF3
+Reference = W36;
+ValeurCmp = PIN_RTC_32KHZ;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF4DFF
+Path = /577ABEC0/57AFCC4A
+Reference = W35;
+ValeurCmp = PIN_RTC_INT;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF4DFA
+Path = /577ABEC0/57AFC7AB
+Reference = R37;
+ValeurCmp = 10k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF4221
+Path = /571E5A5A/57AF9701
+Reference = JP3;
+ValeurCmp = JUMPER;
+IdModule  = mylib:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF3809
+Path = /577ABEC0/57AF8AB9
+Reference = W34;
+ValeurCmp = PIN_RTC_GND;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF346A
+Path = /57819F64/57AF69A3
+Reference = R36;
+ValeurCmp = 10k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF23BF
+Path = /577AA28D/57AFB771
+Reference = U19;
+ValeurCmp = SBS_34_36;
+IdModule  = mylib:SBS_34_36;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF1225
+Path = /57819F64/57AF8392
+Reference = W33;
+ValeurCmp = PIN_PHY_RXD1;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF1220
+Path = /57819F64/57AF771D
+Reference = W32;
+ValeurCmp = PIN_PHY_RESET;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF121B
+Path = /57819F64/57AF79BC
+Reference = W31;
+ValeurCmp = PIN_PHY_TXEN;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF1216
+Path = /57819F64/57AF7EDC
+Reference = W30;
+ValeurCmp = PIN_PHY_CRS_DV;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF1211
+Path = /57819F64/57AF829E
+Reference = W29;
+ValeurCmp = PIN_PHY_RXD0;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF120C
+Path = /57819F64/57AF7937
+Reference = W28;
+ValeurCmp = PIN_PHY_TXD0;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF1207
+Path = /57819F64/57AF7E52
+Reference = W27;
+ValeurCmp = PIN_PHY_RXERR;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF1202
+Path = /57819F64/57AF7DAF
+Reference = W26;
+ValeurCmp = PIN_PHY_INTRP;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF11FD
+Path = /57819F64/57AF7875
+Reference = W25;
+ValeurCmp = PIN_PHY_TXD1;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF0E16
+Path = /57819F64/57AF5F4B
+Reference = W24;
+ValeurCmp = PIN_PHY_REFCLK;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF0E11
+Path = /57819F64/57AF4FFF
+Reference = R35;
+ValeurCmp = 39R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF0E0B
+Path = /57819F64/57AF01ED
+Reference = R34;
+ValeurCmp = 10k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF0E05
+Path = /57819F64/57AE0F41
+Reference = R33;
+ValeurCmp = 1k5;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF0DFF
+Path = /57819F64/57AE4087
+Reference = R32;
+ValeurCmp = 1k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57ACDCA5
+Path = /57819F64/57ACEE0C
+Reference = W23;
+ValeurCmp = PIN_PHY_MDC;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57ACDCA0
+Path = /57819F64/57ACED68
+Reference = W22;
+ValeurCmp = PIN_PHY_MDIO;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB9FA8
+Path = /5778BD6C/57AC0499
+Reference = W21;
+ValeurCmp = PIN_SPI0_NPCS1;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB9FA3
+Path = /571EDF88/57ABF58F
+Reference = W20;
+ValeurCmp = PIN_SPI0_NPCS0;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB9740
+Path = /57819E10/57ABA7C5
+Reference = W19;
+ValeurCmp = PIN_ENC_DB;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB973B
+Path = /57819E10/57ABA606
+Reference = W18;
+ValeurCmp = PIN_ENC_RB;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB9736
+Path = /57819E10/57ABBB0E
+Reference = W17;
+ValeurCmp = PIN_ST4_E;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB9731
+Path = /57819E10/57ABBBE3
+Reference = W16;
+ValeurCmp = PIN_ST4_S;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB972C
+Path = /57819E10/57ABBA00
+Reference = W15;
+ValeurCmp = PIN_ST4_N;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB9727
+Path = /57819E10/57ABBCA2
+Reference = W14;
+ValeurCmp = PIN_ST4_W;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB9722
+Path = /57819E10/57ABA6B3
+Reference = W13;
+ValeurCmp = PIN_ENC_DA;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB971D
+Path = /57819E10/57AB9DBB
+Reference = W12;
+ValeurCmp = PIN_ENC_RA;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8F2B
+Path = /577AA24A/57AB9307
+Reference = W11;
+ValeurCmp = PIN_FLASH_DQ2;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8F26
+Path = /577AA24A/57AB92CA
+Reference = W10;
+ValeurCmp = PIN_FLASH_DQ0;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8F21
+Path = /577AA24A/57AB9284
+Reference = W9;
+ValeurCmp = PIN_FLASH_SCLK;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8F1C
+Path = /577AA24A/57AB91C5
+Reference = W8;
+ValeurCmp = PIN_FLASH_DQ1;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8F17
+Path = /577AA24A/57AB9193
+Reference = W7;
+ValeurCmp = PIN_FLASH_CS;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8F12
+Path = /577AA24A/57AB8F5A
+Reference = W6;
+ValeurCmp = PIN_FLASH_DQ3;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8718
+Path = /577ABEC0/57AB7F6F
+Reference = W5;
+ValeurCmp = PIN_RTC_RESET;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8713
+Path = /577ABEC0/57AB7E14
+Reference = W4;
+ValeurCmp = PIN_RTC_SCLK;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB870E
+Path = /577ABEC0/57AB7F36
+Reference = W3;
+ValeurCmp = PIN_RTC_MISO;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8709
+Path = /577ABEC0/57AB7C59
+Reference = W2;
+ValeurCmp = PIN_RTC_CS;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AB8704
+Path = /577ABEC0/57AB7ECE
+Reference = W1;
+ValeurCmp = PIN_RTC_MOSI;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AA2ECA
+Path = /57794161/57AA3397
+Reference = P2;
+ValeurCmp = CONN_POWER_FUSE;
+IdModule  = mylib:Pin_Header_Straight_LForm_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A8E6F6
+Path = /5778BD6C/57A4D077
+Reference = U18;
+ValeurCmp = SBS_34_36;
+IdModule  = mylib:SBS_34_36;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A8E6EA
+Path = /5778BD6C/57A4CCC6
+Reference = U17;
+ValeurCmp = SBS_34_36;
+IdModule  = mylib:SBS_34_36;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A8E6DE
+Path = /571EDF88/57A4BE68
+Reference = U16;
+ValeurCmp = SBS_34_36;
+IdModule  = mylib:SBS_34_36;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A8E6D2
+Path = /571EDF88/57A4BDBB
+Reference = U15;
+ValeurCmp = SBS_34_36;
+IdModule  = mylib:SBS_34_36;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A8D5EA
+Path = /577ABEC0/577AC405
+Reference = BT1;
+ValeurCmp = CR2032 3V;
+IdModule  = mylib:CR2032H;
+EndCmp
+
+BeginCmp
+TimeStamp = 579F600F
+Path = /57794161/579F82B8
+Reference = D22;
+ValeurCmp = PRTR5V0U2X;
+IdModule  = TO_SOT_Packages_SMD:SOT-143;
+EndCmp
+
+BeginCmp
+TimeStamp = 5794CA5F
+Path = /57819E10/5794F0F2
+Reference = R31;
+ValeurCmp = 270R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5794CA59
+Path = /57819E10/5794F35B
+Reference = R30;
+ValeurCmp = 270R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5794CA53
+Path = /57819E10/5794F3B4
+Reference = R29;
+ValeurCmp = 270R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5794CA4D
+Path = /57819E10/5794F410
+Reference = R28;
+ValeurCmp = 270R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 579287B3
+Path = /57819E10/57907885
+Reference = R27;
+ValeurCmp = 2K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 579287AE
+Path = /57819E10/57907838
+Reference = R26;
+ValeurCmp = 2K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 579287A9
+Path = /57819E10/579077EE
+Reference = R25;
+ValeurCmp = 2K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 579287A4
+Path = /57819E10/57906AA0
+Reference = R24;
+ValeurCmp = 2K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5792879F
+Path = /57819E10/57903873
+Reference = R23;
+ValeurCmp = 270R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5792879A
+Path = /57819E10/579037D7
+Reference = R22;
+ValeurCmp = 270R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57928795
+Path = /57819E10/57904EA7
+Reference = R7;
+ValeurCmp = 270R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57928790
+Path = /57819E10/57904EF8
+Reference = R3;
+ValeurCmp = 270R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E96BE
+Path = /57819F64/57867CF4
+Reference = U11;
+ValeurCmp = KSZ8081RNA;
+IdModule  = mylib:QFN-24-1EP_4x4mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E968A
+Path = /577AA24A/577D9C1E
+Reference = U8;
+ValeurCmp = N25Q00AA;
+IdModule  = mylib:SO-16-W;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E95BC
+Path = /57819E10/578819DB
+Reference = R21;
+ValeurCmp = 2K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E95B1
+Path = /57819E10/57881A26
+Reference = R20;
+ValeurCmp = 2K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E95A6
+Path = /57819E10/57881A4D
+Reference = R19;
+ValeurCmp = 2K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E959B
+Path = /57819E10/57881A77
+Reference = R18;
+ValeurCmp = 2K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9590
+Path = /57819F64/57871C86
+Reference = R17;
+ValeurCmp = 10k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9585
+Path = /57819F64/5786F45A
+Reference = R16;
+ValeurCmp = 1k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E957A
+Path = /57819F64/5786A481
+Reference = R15;
+ValeurCmp = 1k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E956F
+Path = /57819F64/5786B208
+Reference = R14;
+ValeurCmp = 6k49;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9564
+Path = /577AA28D/57817DED
+Reference = R13;
+ValeurCmp = 3K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9559
+Path = /577AA28D/57817EC0
+Reference = R12;
+ValeurCmp = 3K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E954E
+Path = /577AA28D/57815AEC
+Reference = R11;
+ValeurCmp = 3K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9543
+Path = /577AA28D/57815BB4
+Reference = R10;
+ValeurCmp = 3K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9538
+Path = /577AA28D/57815059
+Reference = R9;
+ValeurCmp = 100R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E952D
+Path = /577AA28D/5781529B
+Reference = R8;
+ValeurCmp = 100R;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9522
+Path = /5778BD6C/57211D4B
+Reference = R6;
+ValeurCmp = 0,167;
+IdModule  = mylib:R_2512_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9517
+Path = /5778BD6C/57A20D05
+Reference = R5;
+ValeurCmp = 0,167;
+IdModule  = mylib:R_2512_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E950C
+Path = /571E5A5A/57692A40
+Reference = R4;
+ValeurCmp = 5K62;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9501
+Path = /571EDF88/57A1F91E
+Reference = R2;
+ValeurCmp = 0,167;
+IdModule  = mylib:R_2512_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E94F6
+Path = /571EDF88/57A1F945
+Reference = R1;
+ValeurCmp = 0,167;
+IdModule  = mylib:R_2512_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E94EC
+Path = /577AA28D/57818B1A
+Reference = Q2;
+ValeurCmp = IRLML2402;
+IdModule  = mylib:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E94E2
+Path = /577AA28D/57818ADF
+Reference = Q1;
+ValeurCmp = IRLML2402;
+IdModule  = mylib:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E94BA
+Path = /578B4477
+Reference = P17;
+ValeurCmp = CONN_01X01;
+IdModule  = mylib:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E94B4
+Path = /578B4428
+Reference = P16;
+ValeurCmp = CONN_01X01;
+IdModule  = mylib:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E94AE
+Path = /578A3F09
+Reference = P15;
+ValeurCmp = CONN_01X01;
+IdModule  = mylib:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E94A8
+Path = /578A3E82
+Reference = P14;
+ValeurCmp = CONN_01X01;
+IdModule  = mylib:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E94A2
+Path = /578A3EBA
+Reference = P13;
+ValeurCmp = CONN_01X01;
+IdModule  = mylib:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9469
+Path = /578A3D60
+Reference = P8;
+ValeurCmp = CONN_01X01;
+IdModule  = mylib:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9401
+Path = /57818D10/5782982E
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = mylib:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E93F1
+Path = /57818D10/578297E4
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = mylib:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 578A50D5
+Path = /57819E10/578812ED
+Reference = P7;
+ValeurCmp = CONN_ENCODER;
+IdModule  = mylib:Conn_Modular_4;
+EndCmp
+
+BeginCmp
+TimeStamp = 578A50C8
+Path = /57819E10/57881233
+Reference = P6;
+ValeurCmp = CONN_ENCODER;
+IdModule  = mylib:Conn_Modular_4;
+EndCmp
+
+BeginCmp
+TimeStamp = 578A2F89
+Path = /57818D10/578A2B7D
+Reference = P12;
+ValeurCmp = CONN_DUALRS232;
+IdModule  = mylib:Pin_Header_Straight_LForm_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = 578A2231
+Path = /5778BD6C/57A1F93A
+Reference = P4;
+ValeurCmp = CONN_STEPPER;
+IdModule  = mylib:Pin_Header_Straight_LForm_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = 578A221F
+Path = /571EDF88/57A1F939
+Reference = P3;
+ValeurCmp = CONN_STEPPER;
+IdModule  = mylib:Pin_Header_Straight_LForm_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = 578A8AAF
+Path = /5778BD6C/57A20D00
+Reference = U3;
+ValeurCmp = A3992;
+IdModule  = mylib:SSOP24_A3992_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 578A2243
+Path = /577AA28D/57880441
+Reference = P5;
+ValeurCmp = CONN_HANDBOX;
+IdModule  = mylib:Pin_Header_Straight_LForm_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = 5797C096
+Path = /57819F53/5787FF7C
+Reference = P10;
+ValeurCmp = ENCODERMODUL;
+IdModule  = mylib:IP2000_Modul;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B37C6B
+Path = /57819F53/57B35B5B
+Reference = R38;
+ValeurCmp = 50k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B39574
+Path = /571E5A5A/57B3B0D5
+Reference = Q5;
+ValeurCmp = IRLML2402;
+IdModule  = mylib:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B3A8F4
+Path = /571E5A5A/57B3C88A
+Reference = D2;
+ValeurCmp = D_Schottky;
+IdModule  = mylib:SMA_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B3A90B
+Path = /571E5A5A/57B3C66F
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = mylib:DIGISOUND;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B3B18D
+Path = /571E5A5A/57B3E051
+Reference = W38;
+ValeurCmp = PIN_SPEAKER;
+IdModule  = mylib:TestPad_09mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B4C4A2
+Path = /571E5A5A/57B4C5D2
+Reference = R39;
+ValeurCmp = 47K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B4C4AE
+Path = /571E5A5A/57B4CA8B
+Reference = R40;
+ValeurCmp = 3K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B4CC0A
+Path = /571E5A5A/57B4E938
+Reference = JP4;
+ValeurCmp = JUMPER;
+IdModule  = mylib:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B4D8ED
+Path = /571E5A5A/57B50B0E
+Reference = P19;
+ValeurCmp = CONN_LED;
+IdModule  = mylib:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B4D8F9
+Path = /571E5A5A/57B5028F
+Reference = R41;
+ValeurCmp = 1k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B22DE7
+Path = /57794161/577943C1
+Reference = P1;
+ValeurCmp = USB_B;
+IdModule  = mylib:Conn_USBBW_Reichelt;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B63EB7
+Path = /57819F64/57867D37
+Reference = J2;
+ValeurCmp = RJ45-TRANSFO;
+IdModule  = mylib:RJ45_TRANSFO_CONNEX_11AC010X;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B82E68
+Path = /571E5A5A/5794940A
+Reference = Y1;
+ValeurCmp = 12MHz;
+IdModule  = mylib:TCXO_53;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B82E73
+Path = /57819F64/5794A03F
+Reference = Y2;
+ValeurCmp = 25MHz;
+IdModule  = mylib:TCXO_53;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B890D9
+Path = /57819E10/579668A0
+Reference = U14;
+ValeurCmp = DCDC_SIL;
+IdModule  = mylib:SIL_DCDC_4Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B8D2D3
+Path = /571EDF88/57A1F93B
+Reference = U1;
+ValeurCmp = A3992;
+IdModule  = mylib:SSOP24_A3992_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B8D2FF
+Path = /571E5A5A/571EC86D
+Reference = U2;
+ValeurCmp = SAME70N21;
+IdModule  = mylib:LQFP-100_14x14mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B8DAE2
+Path = /57819E10/5790339E
+Reference = Q3;
+ValeurCmp = DDC143ZU;
+IdModule  = mylib:SOT-363;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B8DAEB
+Path = /57819E10/57903505
+Reference = Q4;
+ValeurCmp = DDC143ZU;
+IdModule  = mylib:SOT-363;
+EndCmp
+
+BeginCmp
+TimeStamp = 578BA374
+Path = /578BA63C
+Reference = P18;
+ValeurCmp = CONN_STEPPER_3_4;
+IdModule  = mylib:Pin_Header_Straight_2x10;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9CBA3
+Path = /571E5A5A/57B9D951
+Reference = R42;
+ValeurCmp = 15K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9CBAF
+Path = /571E5A5A/57B9D8A9
+Reference = R43;
+ValeurCmp = 22K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF642D
+Path = /578463B0/57847387
+Reference = P9;
+ValeurCmp = ARM_JTAG;
+IdModule  = mylib:ARM_JTAG;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9DE46
+Path = /571E5A5A/57BA1486
+Reference = R44;
+ValeurCmp = 1K;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9DE52
+Path = /578463B0/57BA1FE8
+Reference = R45;
+ValeurCmp = 100k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9DE5E
+Path = /578463B0/57BA2074
+Reference = R46;
+ValeurCmp = 100k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9DE6A
+Path = /578463B0/57BA2096
+Reference = R47;
+ValeurCmp = 100k;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9E7AC
+Path = /571E5A5A/57BA54FF
+Reference = JP5;
+ValeurCmp = JUMPER;
+IdModule  = mylib:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9ED82
+Path = /571E5A5A/57BA7E1A
+Reference = R48;
+ValeurCmp = 2R2;
+IdModule  = mylib:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E964A
+Path = /57794161/57794F3F
+Reference = U5;
+ValeurCmp = 42/5V 1A;
+IdModule  = mylib:DCDC-Conv_TRACO_TSR-1;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E963B
+Path = /57794161/57794F74
+Reference = U4;
+ValeurCmp = 42/24V 1A;
+IdModule  = mylib:DCDC-Conv_TRACO_TSR-1;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9659
+Path = /57794161/57794FBB
+Reference = U6;
+ValeurCmp = 42/3.3V 1A;
+IdModule  = mylib:DCDC-Conv_TRACO_TSR-1;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9ED76
+Path = /571E5A5A/57BA7D6D
+Reference = L5;
+ValeurCmp = 10µH;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B9CB97
+Path = /571E5A5A/57B9E5E4
+Reference = C55;
+ValeurCmp = 4,7µF;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B83252
+Path = /57819F64/57B84500
+Reference = C53;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B83246
+Path = /571E5A5A/57B836D4
+Reference = C26;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B4C496
+Path = /571E5A5A/57B4D31B
+Reference = C13;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2975
+Path = /57819F64/578688B0
+Reference = C50;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2885
+Path = /571EDF88/57A1F919
+Reference = C1;
+ValeurCmp = 220n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D288A
+Path = /571EDF88/57A1F917
+Reference = C2;
+ValeurCmp = 220n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D288F
+Path = /571EDF88/57A1F950
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2894
+Path = /577AA24A/577D5FA8
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2899
+Path = /577ABEC0/577D7E5A
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D289E
+Path = /57818D10/57829B8C
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28A3
+Path = /571E5A5A/576929F4
+Reference = C7;
+ValeurCmp = 10p;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28A8
+Path = /571E5A5A/575F0F76
+Reference = C8;
+ValeurCmp = 4,7µF;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28AD
+Path = /571E5A5A/575F0F4B
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28B2
+Path = /571E5A5A/575F0F25
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28B7
+Path = /571E5A5A/575F0F00
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28BC
+Path = /571E5A5A/575F0EDE
+Reference = C12;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28C6
+Path = /571E5A5A/575F0E91
+Reference = C14;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28CB
+Path = /571E5A5A/575F0E57
+Reference = C15;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28D0
+Path = /571E5A5A/575F238C
+Reference = C16;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28D5
+Path = /571E5A5A/575F2342
+Reference = C17;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28DA
+Path = /571E5A5A/575F2471
+Reference = C18;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28DF
+Path = /571E5A5A/575F23EA
+Reference = C19;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28E4
+Path = /571E5A5A/57684AAE
+Reference = C20;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28E9
+Path = /571E5A5A/57684AFE
+Reference = C21;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28EE
+Path = /571E5A5A/57696E78
+Reference = C22;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28F3
+Path = /5778BD6C/57210EBA
+Reference = C23;
+ValeurCmp = 220n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28F8
+Path = /5778BD6C/57210E16
+Reference = C24;
+ValeurCmp = 220n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D28FD
+Path = /571EDF88/57A1F948
+Reference = C25;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2916
+Path = /57794161/577956D8
+Reference = C31;
+ValeurCmp = 10µ25V;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D291B
+Path = /57794161/5779571A
+Reference = C32;
+ValeurCmp = 10µ25V;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2920
+Path = /57794161/5779574C
+Reference = C33;
+ValeurCmp = 10µ25V;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2925
+Path = /571EDF88/578AF95C
+Reference = C34;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D292A
+Path = /571EDF88/57A1F934
+Reference = C35;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D292F
+Path = /5778BD6C/57A1F94F
+Reference = C36;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2934
+Path = /5778BD6C/57A20CFD
+Reference = C37;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D293E
+Path = /571EDF88/57A20CFE
+Reference = C39;
+ValeurCmp = 220n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2948
+Path = /5778BD6C/57A1F935
+Reference = C41;
+ValeurCmp = 220n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2952
+Path = /57818D10/57829BF8
+Reference = C43;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2957
+Path = /57818D10/57829D4D
+Reference = C44;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D295C
+Path = /57818D10/57829DA6
+Reference = C45;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2961
+Path = /57818D10/5784AB9B
+Reference = C46;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2966
+Path = /57819F64/57867E03
+Reference = C47;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D296B
+Path = /57819F64/57867E31
+Reference = C48;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2970
+Path = /57819F64/5786950E
+Reference = C49;
+ValeurCmp = 4.7µ50V;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D297A
+Path = /57819F64/578695E4
+Reference = C51;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D297F
+Path = /57819F64/57868849
+Reference = C52;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2989
+Path = /57819F64/57868809
+Reference = C54;
+ValeurCmp = 2.2µ 50V;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2993
+Path = /57819F64/5786B75A
+Reference = C56;
+ValeurCmp = 22p;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2998
+Path = /57819F64/5786A617
+Reference = C57;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D299D
+Path = /57819F64/5786C25E
+Reference = C58;
+ValeurCmp = 10µ25V;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29A2
+Path = /57819F64/57871BAD
+Reference = C59;
+ValeurCmp = 10µ25V;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29A7
+Path = /57819F53/57881647
+Reference = C60;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29AC
+Path = /57819F53/578815F4
+Reference = C61;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29B1
+Path = /57819E10/57881474
+Reference = C62;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29B6
+Path = /57819E10/578814A9
+Reference = C63;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29BB
+Path = /5778BD6C/578ABCF5
+Reference = C64;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29C0
+Path = /5778BD6C/57A1F953
+Reference = C65;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29C5
+Path = /571EDF88/57A1F957
+Reference = C66;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29CA
+Path = /5778BD6C/57A20D0C
+Reference = C67;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29D4
+Path = /578463B0/578D4B03
+Reference = C68;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D29DA
+Path = /57819F53/578D5E0C
+Reference = C69;
+ValeurCmp = 100n;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E943B
+Path = /57819F64/5794D83F
+Reference = L4;
+ValeurCmp = 120;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5794CFFD
+Path = /571E5A5A/5794CDF7
+Reference = L1;
+ValeurCmp = 120;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5794D002
+Path = /571E5A5A/5794CD36
+Reference = L2;
+ValeurCmp = 120;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5794D007
+Path = /571E5A5A/5794D184
+Reference = L3;
+ValeurCmp = 120;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF860F
+Path = /57819E10/57B074CA
+Reference = C27;
+ValeurCmp = C_Small;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AF861B
+Path = /57819E10/57B0798E
+Reference = C42;
+ValeurCmp = C_Small;
+IdModule  = mylib:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D290C
+Path = /57794161/577957BD
+Reference = C29;
+ValeurCmp = 22µ50V;
+IdModule  = mylib:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2911
+Path = /57794161/577957F4
+Reference = C30;
+ValeurCmp = 22µ50V;
+IdModule  = mylib:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E96A4
+Path = /57818D10/57829326
+Reference = U9;
+ValeurCmp = MAX232;
+IdModule  = mylib:SO-16-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 579287B8
+Path = /57819E10/5790101E
+Reference = U10;
+ValeurCmp = ACSL-6400;
+IdModule  = mylib:SO-16-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 5794CA73
+Path = /57819E10/5794CBA3
+Reference = U13;
+ValeurCmp = ACSL-6400;
+IdModule  = mylib:SO-16-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E9668
+Path = /577ABEC0/577AC089
+Reference = U7;
+ValeurCmp = DS3234;
+IdModule  = mylib:SOIC-20_7.5x12.8mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 578E936C
+Path = /57794161/577944ED
+Reference = D1;
+ValeurCmp = 50V 3A;
+IdModule  = mylib:Diode_DO-201AD_Horizontal_RM15;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2943
+Path = /5778BD6C/5779B544
+Reference = C40;
+ValeurCmp = 100µ50V;
+IdModule  = mylib:C_Radial_D10_L13_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = 578D2939
+Path = /571EDF88/57A1F938
+Reference = C38;
+ValeurCmp = 100µ50V;
+IdModule  = mylib:C_Radial_D10_L13_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = 578B8E21
+Path = /57794161/5779577F
+Reference = C28;
+ValeurCmp = 100µ50V;
+IdModule  = mylib:C_Radial_D10_L13_P5;
+EndCmp
+
+EndListe

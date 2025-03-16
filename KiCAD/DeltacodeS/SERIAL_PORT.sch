@@ -1,0 +1,277 @@
+EESchema Schematic File Version 2
+LIBS:TEST4-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myLib
+LIBS:same70n21
+LIBS:TEST4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MAX232-RESCUE-TEST4 U9
+U 1 1 57829326
+P 4800 3100
+AR Path="/57829326" Ref="U9"  Part="1" 
+AR Path="/57818D10/57829326" Ref="U9"  Part="1" 
+F 0 "U9" H 4350 3950 50  0000 L CNN
+F 1 "MAX232" H 5000 3950 50  0000 L CNN
+F 2 "mylib:SO-16-N" H 4800 3100 50  0001 C CNN
+F 3 "" H 4800 3100 50  0000 C CNN
+	1    4800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP1
+U 1 1 578297E4
+P 6800 4300
+F 0 "JP1" H 6800 4450 50  0000 C CNN
+F 1 "JUMPER" H 6800 4220 50  0000 C CNN
+F 2 "mylib:Pin_Header_Straight_1x02" H 6800 4300 50  0001 C CNN
+F 3 "" H 6800 4300 50  0000 C CNN
+	1    6800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP2
+U 1 1 5782982E
+P 6800 3950
+F 0 "JP2" H 6800 4100 50  0000 C CNN
+F 1 "JUMPER" H 6800 3870 50  0000 C CNN
+F 2 "mylib:Pin_Header_Straight_1x02" H 6800 3950 50  0001 C CNN
+F 3 "" H 6800 3950 50  0000 C CNN
+	1    6800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3600 6000 3600
+Wire Wire Line
+	5900 4300 6500 4300
+$Comp
+L C_Small C6
+U 1 1 57829B8C
+P 3950 2600
+F 0 "C6" H 3960 2670 50  0000 L CNN
+F 1 "100n" H 3960 2520 50  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 3950 2600 50  0001 C CNN
+F 3 "" H 3950 2600 50  0000 C CNN
+	1    3950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C43
+U 1 1 57829BF8
+P 3950 3100
+F 0 "C43" H 3960 3170 50  0000 L CNN
+F 1 "100n" H 3960 3020 50  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 3950 3100 50  0001 C CNN
+F 3 "" H 3950 3100 50  0000 C CNN
+	1    3950 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2400 3950 2400
+Wire Wire Line
+	3950 2400 3950 2500
+Wire Wire Line
+	4200 2800 3950 2800
+Wire Wire Line
+	3950 2800 3950 2700
+Wire Wire Line
+	4200 2900 3950 2900
+Wire Wire Line
+	3950 2900 3950 3000
+Wire Wire Line
+	4200 3300 3950 3300
+Wire Wire Line
+	3950 3300 3950 3200
+$Comp
+L +3.3V #PWR072
+U 1 1 57829CAE
+P 6150 2000
+F 0 "#PWR072" H 6150 1850 50  0001 C CNN
+F 1 "+3.3V" H 6150 2140 50  0000 C CNN
+F 2 "" H 6150 2000 50  0000 C CNN
+F 3 "" H 6150 2000 50  0000 C CNN
+	1    6150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR073
+U 1 1 57829CCE
+P 6150 3150
+F 0 "#PWR073" H 6150 2900 50  0001 C CNN
+F 1 "GND" H 6150 3000 50  0000 C CNN
+F 2 "" H 6150 3150 50  0000 C CNN
+F 3 "" H 6150 3150 50  0000 C CNN
+	1    6150 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2400 6150 2400
+Wire Wire Line
+	6150 2000 6150 2500
+Wire Wire Line
+	5400 3000 6150 3000
+Wire Wire Line
+	6150 2700 6150 3150
+$Comp
+L C_Small C44
+U 1 1 57829D4D
+P 5650 2600
+F 0 "C44" H 5660 2670 50  0000 L CNN
+F 1 "100n" H 5660 2520 50  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 5650 2600 50  0001 C CNN
+F 3 "" H 5650 2600 50  0000 C CNN
+	1    5650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C45
+U 1 1 57829DA6
+P 5650 3150
+F 0 "C45" H 5660 3220 50  0000 L CNN
+F 1 "100n" H 5660 3070 50  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 5650 3150 50  0001 C CNN
+F 3 "" H 5650 3150 50  0000 C CNN
+	1    5650 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2500 5650 2400
+Connection ~ 5650 2400
+Wire Wire Line
+	5650 3300 5400 3300
+Wire Wire Line
+	5400 2800 5650 2800
+Wire Wire Line
+	5650 2800 5650 2700
+Wire Wire Line
+	5650 3050 5650 3000
+Connection ~ 5650 3000
+Wire Wire Line
+	5650 3300 5650 3250
+Text GLabel 3550 3500 0    60   Input ~ 0
+MAX232_T1IN
+Text GLabel 3550 3700 0    60   Output ~ 0
+MAX232_R1OUT
+Wire Wire Line
+	3550 3500 4200 3500
+Wire Wire Line
+	3550 3700 4200 3700
+$Comp
+L GND #PWR074
+U 1 1 5782CBD6
+P 7200 3150
+F 0 "#PWR074" H 7200 2900 50  0001 C CNN
+F 1 "GND" H 7200 3000 50  0000 C CNN
+F 2 "" H 7200 3150 50  0000 C CNN
+F 3 "" H 7200 3150 50  0000 C CNN
+	1    7200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C46
+U 1 1 5784AB9B
+P 6150 2600
+F 0 "C46" H 6160 2670 50  0000 L CNN
+F 1 "100n" H 6160 2520 50  0000 L CNN
+F 2 "mylib:C_1206_HandSoldering" H 6150 2600 50  0001 C CNN
+F 3 "" H 6150 2600 50  0000 C CNN
+	1    6150 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 2400
+Connection ~ 6150 3000
+$Comp
+L CONN_DUALRS232 P12
+U 1 1 578A2B7D
+P 7950 3600
+F 0 "P12" H 7950 3300 50  0000 C CNN
+F 1 "CONN_DUALRS232" V 7750 3600 50  0000 C CNN
+F 2 "mylib:Pin_Header_Straight_LForm_1x05" H 7800 3600 50  0001 C CNN
+F 3 "" H 7800 3600 50  0000 C CNN
+	1    7950 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 3500 6450 3500
+Wire Wire Line
+	6450 3500 6450 3600
+Wire Wire Line
+	6450 3600 7650 3600
+Wire Wire Line
+	5400 3700 6550 3700
+Wire Wire Line
+	6550 3700 6550 3500
+Wire Wire Line
+	6550 3500 7650 3500
+Wire Wire Line
+	6000 3600 6000 3950
+Wire Wire Line
+	6000 3950 6500 3950
+Wire Wire Line
+	5400 3800 5900 3800
+Wire Wire Line
+	5900 3800 5900 4300
+Wire Wire Line
+	7100 3950 7500 3950
+Wire Wire Line
+	7500 3950 7500 3800
+Wire Wire Line
+	7500 3800 7650 3800
+Wire Wire Line
+	7100 4300 7350 4300
+Wire Wire Line
+	7350 4300 7350 3700
+Wire Wire Line
+	7350 3700 7650 3700
+Wire Wire Line
+	7200 3150 7200 3000
+Wire Wire Line
+	7200 3000 7500 3000
+Wire Wire Line
+	7500 3000 7500 3400
+Wire Wire Line
+	7500 3400 7650 3400
+NoConn ~ 4200 3600
+NoConn ~ 4200 3800
+$EndSCHEMATC

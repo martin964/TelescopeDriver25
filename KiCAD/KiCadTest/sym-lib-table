@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "KiCadTest")(type "KiCad")(uri "${KIPRJMOD}/KiCadTest.kicad_sym")(options "")(descr ""))
+  (lib (name "ATSAME70")(type "KiCad")(uri "D:/OneDrive/PROJEKTE/ATSAME70/KiCAD/ControllerBoard/ATSAME70.kicad_sym")(options "")(descr ""))
+)
